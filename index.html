@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>ENOC</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="top-bar">
+    <div class="top-bar-content">
+        BIENVENIDO A ENOC • TECNOLOGÍA • MOVILIDAD • SOLUCIONES INDUSTRIALES • LUBRICANTES • FILTROS • FLUIDOS • GRASAS
+    </div>
+</div>
+
+<div class="layout">
+
+<!-- INTRO ENOC -->
+
+<div class="intro-screen" id="introScreen">
+
+    <img
+    src="assets/intro/fondo-intro.jpg"
+    class="intro-fondo">
+
+    <div class="intro-overlay">
+
+        <img
+        src="assets/intro/logo-enoc.png"
+        class="intro-logo">
+
+        <h2>Tecnología, Movilidad e Innovación</h2>
+
+    </div>
+
+</div>
+
+<aside class="sidebar-left">
+
+    <div class="info-card">
+        <h3>FECHA ACTUAL</h3>
+        <p id="fechaActual"></p>
+    </div>
+
+    <div class="info-card enoc-card">
+
+        <h3>ENOC</h3>
+
+        <p>Lubricantes</p>
+        <p>Filtros</p>
+        <p>Fluidos</p>
+        <p>Grasas</p>
+        <p>Soluciones Industriales</p>
+
+    </div>
+
+</aside>            
+
+    
+
+    <main class="hero-container">
+
+    <div class="hero-wrapper">
+
+        <img
+        src="assets/hero/hero-enoc.png"
+        alt="ENOC"
+        class="hero-img">
+
+        <a href="catalogo/index.html"
+        class="hero-btn btn-productos">
+
+        </a>
+
+        <a href="motos/index.html"
+        class="hero-btn btn-motos">
+
+        </a>
+
+    </div>
+
+</main>
+
+<aside class="sidebar-right">
+
+    <a
+    href="https://wa.me/59177525406?text=Hola%20ENOC.%20Deseo%20realizar%20una%20consulta%20sobre%20sus%20productos."
+    target="_blank"
+    class="info-card whatsapp-card">
+
+        <h3>ATENCIÓN INMEDIATA</h3>
+
+        <p>
+            Cotizaciones rápidas,
+            asesoramiento técnico y
+            disponibilidad de productos.
+        </p>
+
+    </a>
+
+    <div class="info-card destacados-card">
+
+        <h3>PRODUCTOS DESTACADOS</h3>
+
+        <p id="productoDestacado">
+            Aceites Automotrices
+        </p>
+
+    </div>
+
+</aside>
+
+</div>
+
+<script>
+
+const fecha = new Date();
+
+document.getElementById("fechaActual").innerText =
+fecha.toLocaleDateString(
+"es-BO",
+{
+day:"numeric",
+month:"long",
+year:"numeric"
+}
+);
+
+const destacados = [
+"Aceites Automotrices",
+"Filtros de Aceite",
+"Fluidos Especializados",
+"Anticongelantes",
+"Grasas Lubricantes",
+"Aceites a Granel",
+"Motos Eléctricas"
+];
+
+let indice = 0;
+
+setInterval(() => {
+
+indice++;
+
+if(indice >= destacados.length){
+indice = 0;
+}
+
+document.getElementById("productoDestacado").textContent =
+destacados[indice];
+
+},3000);
+
+</script>
+
+<div class="bottom-bar">
+
+    <div class="bottom-bar-content">
+
+        ENOC • Lubricantes • Filtros • Fluidos • Grasas • Aceites a Granel • Motos Eléctricas • La Paz - Bolivia • 2026
+
+    </div>
+
+</div>
+
+</body>
+</html>
