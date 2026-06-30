@@ -216,16 +216,35 @@ margin:15px auto;
 
 width:100%;
 
+max-width:100%;
+
+padding-left:0;
+padding-right:0;
+
+padding-top:10px;
+
+margin:auto;
+
 }
 
 .hero-img{
 
 width:100%;
+height:auto;
+
+border-radius:15px;
 
 }
 
 }
 
+
+.hero-wrapper{
+
+width:100%;
+max-width:100%;
+
+}
 
 
 .hero-btn{
