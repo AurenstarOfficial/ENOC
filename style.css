@@ -190,8 +190,8 @@ right:10px;
 @media(max-width:768px){
 
 body{
-    padding-top:95px;
-    padding-bottom:95px;
+    padding-top:0px;
+    padding-bottom:0px;
 }
 
 /* HERO ocupa toda la pantalla disponible */
@@ -205,7 +205,7 @@ body{
 .sidebar-left{
     position:fixed;
 
-    top:40px;
+    top:0px;
     left:0;
 
     width:100%;
@@ -230,7 +230,7 @@ body{
 .sidebar-right{
     position:fixed;
 
-    bottom:40px;
+    bottom:0px;
     left:0;
 
     width:100%;
@@ -278,7 +278,8 @@ body{
 
     padding:0;
 
-    margin:0 auto;
+    margin-top:130px;
+    margin-bottom:130px;
 
     position:relative;
 }
@@ -543,6 +544,12 @@ pointer-events:none;
 /* BARRA SUPERIOR */
 
 .top-bar{
+
+    position:fixed;
+    top:90px;
+    left:0;
+    z-index:4000;
+
     width:100%;
     overflow:hidden;
     background:#061a2d;
@@ -571,6 +578,12 @@ pointer-events:none;
 /* BARRA INFERIOR */
 
 .bottom-bar{
+
+    position:fixed;
+    bottom:90px;
+    left:0;
+    z-index:4000;
+
     width:100%;
     overflow:hidden;
     background:#061a2d;
