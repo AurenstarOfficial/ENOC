@@ -545,11 +545,6 @@ pointer-events:none;
 
 .top-bar{
 
-    position:fixed;
-    top:90px;
-    left:0;
-    z-index:4000;
-
     width:100%;
     overflow:hidden;
     background:#061a2d;
@@ -578,11 +573,6 @@ pointer-events:none;
 /* BARRA INFERIOR */
 
 .bottom-bar{
-
-    position:fixed;
-    bottom:90px;
-    left:0;
-    z-index:4000;
 
     width:100%;
     overflow:hidden;
