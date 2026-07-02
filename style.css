@@ -203,10 +203,8 @@ body{
 /* BARRA SUPERIOR FIJA */
 
 .sidebar-left{
-    position:fixed;
+    position:relative;
 
-    top:0px;
-    left:0;
 
     width:100%;
     height:90px;
@@ -228,10 +226,7 @@ body{
 /* BARRA INFERIOR FIJA */
 
 .sidebar-right{
-    position:fixed;
-
-    bottom:0px;
-    left:0;
+    position:relative;
 
     width:100%;
     height:90px;
@@ -552,6 +547,8 @@ pointer-events:none;
     height:40px;
     display:flex;
     align-items:center;
+    position:relative;
+    top:auto;
 }
 
 .top-bar-content{
@@ -581,6 +578,8 @@ pointer-events:none;
     height:40px;
     display:flex;
     align-items:center;
+    position:relative;
+    bottom:auto;
 }
 
 .bottom-bar-content{
