@@ -121,45 +121,47 @@ z-index:20;
 
 .btn-aceites{
 left:3%;
-top:44.5%;
-width:30%;
-height:24.5%;
+top:43.5%;
+width:45.5%;
+height:16%;
 }
 
 .btn-filtros{
-left:34.5%;
-top:44.5%;
-width:29.5%;
-height:24.5%;
+left:51%;
+top:43.5%;
+width:45%;
+height:16%;
 }
 
 .btn-fluidos{
-left:65.2%;
-top:44.5%;
-width:31%;
-height:24.5%;
+left:3%;
+top:60.8%;
+width:45%;
+height:15%;
 }
 
 .btn-anticongelantes{
-left:3%;
-top:70%;
-width:30%;
-height:22%;
+left:51%;
+top:60.8%;
+width:45%;
+height:15%;
 }
 
 .btn-grasas{
-left:34.5%;
-top:70%;
-width:29.5%;
-height:22%;
+left:3.3%;
+top:77%;
+width:45%;
+height:16%;
 }
 
 .btn-granel{
-left:65%;
-top:70%;
-width:31%;
-height:22%;
+left:51%;
+top:77%;
+width:45%;
+height:16%;
 }
+
+
 
 
 
