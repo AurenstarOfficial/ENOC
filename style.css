@@ -751,3 +751,13 @@ pointer-events:none;
             0 0 15px rgba(0,140,255,.15);
     }
 }
+
+.whatsapp-card i{
+    font-size:2rem;
+    color:#25D366;
+}
+
+.whatsapp-card p{
+    margin-top:8px;
+    font-weight:600;
+}
