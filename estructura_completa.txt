@@ -1,5 +1,5 @@
 Listado de rutas de carpetas para el volumen Disco
-El número de serie del volumen es 00000096 D6E8:064C
+El número de serie del volumen es 000000A4 D6E8:064C
 C:.
 |   .gitignore
 |   animations.css
