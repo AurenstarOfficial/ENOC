@@ -127,8 +127,7 @@ opacity:1;
 
 transition:.4s;
 
-animation:respirar 3s infinite;
-
+animation:respirar 2.5s ease-in-out infinite;
 z-index:20;
 
 }
@@ -142,6 +141,7 @@ left:4%;
 top:29%;
 width:92%;
 height:9.5%;
+animation-delay:0s;
 }
 
 .btn-filtros{
@@ -149,6 +149,7 @@ left:4%;
 top:39%;
 width:92%;
 height:9.5%;
+animation-delay:.35s;
 }
 
 .btn-fluidos{
@@ -156,6 +157,7 @@ left:4%;
 top:49%;
 width:92%;
 height:9.5%;
+animation-delay:.70s;
 }
 
 .btn-anticongelantes{
@@ -163,6 +165,7 @@ left:4%;
 top:59.5%;
 width:92%;
 height:9.5%;
+animation-delay:1.05s;
 }
 
 .btn-grasas{
@@ -170,6 +173,7 @@ left:4%;
 top:69%;
 width:92%;
 height:9.5%;
+animation-delay:1.40s;
 }
 
 .btn-granel{
@@ -177,6 +181,7 @@ left:4%;
 top:79.5%;
 width:92%;
 height:9.5%;
+animation-delay:1.75s;
 }
 
 
